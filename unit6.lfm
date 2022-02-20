@@ -1,0 +1,124 @@
+object aboutusform: Taboutusform
+  Left = 219
+  Height = 360
+  Top = 77
+  Width = 435
+  BorderStyle = bsToolWindow
+  Caption = 'درباره برنامه'
+  ClientHeight = 360
+  ClientWidth = 435
+  OnCreate = FormCreate
+  ParentBiDiMode = False
+  LCLVersion = '1.8.0.6'
+  object Label1: TLabel
+    Left = 88
+    Height = 23
+    Top = 16
+    Width = 265
+    BidiMode = bdRightToLeft
+    Caption = 'برنامه ایجاد فایل پایای گروهی'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -19
+    Font.Name = 'Tahoma'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentBidiMode = False
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 48
+    Height = 23
+    Top = 64
+    Width = 342
+    BidiMode = bdRightToLeft
+    Caption = 'پدیدآورنده و برنامه‌نویس: احمد پوربابائی‌گرده'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -19
+    Font.Name = 'Tahoma'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentBidiMode = False
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label3: TLabel
+    Left = 80
+    Height = 23
+    Top = 104
+    Width = 285
+    BidiMode = bdRightToLeft
+    Caption = 'آدرس ایمیل: ahmadbabayi@iran.ir'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -19
+    Font.Name = 'Tahoma'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentBidiMode = False
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label4: TLabel
+    Left = 209
+    Height = 23
+    Top = 152
+    Width = 156
+    BidiMode = bdRightToLeft
+    Caption = 'آی‌دی بله و تلگرام: '
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -19
+    Font.Name = 'Tahoma'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentBidiMode = False
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label5: TLabel
+    Left = 80
+    Height = 23
+    Top = 152
+    Width = 130
+    Caption = '@ahmadbabayi'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -19
+    Font.Name = 'Tahoma'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentBidiMode = False
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label6: TLabel
+    Left = 128
+    Height = 23
+    Top = 200
+    Width = 187
+    BidiMode = bdRightToLeft
+    Caption = 'ورژن برنامه: 13980911'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -19
+    Font.Name = 'Tahoma'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentBidiMode = False
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label7: TLabel
+    Left = 64
+    Height = 23
+    Top = 264
+    Width = 324
+    Caption = 'Created on FreePascal and Lazarus ide'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -19
+    Font.Name = 'Tahoma'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentBidiMode = False
+    ParentColor = False
+    ParentFont = False
+  end
+end
